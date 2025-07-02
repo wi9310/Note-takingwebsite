@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Browser</title>
+    <title>Note-Taking App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Notes</h1>
     <div class="container">
-        <button>Add New Notes</button>
+        <header>
+            <h1>Note-Taking App</h1>
+        </header>
+        
+        <main>
+            <section class="note-form">
+                <h2>Add a New Note</h2>
+                <form id="noteForm">
+                    <div class="form-group">
+                        <label for="noteTitle">Title:</label>
+                        <input type="text" id="noteTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="noteBody">Body:</label>
+                        <textarea id="noteBody" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Save Note</button>
+                </form>
+            </section>
+            
+            <section class="notes-list">
+                <h2>Your Notes</h2>
+                <div id="notesContainer"></div>
+            </section>
+        </main>
     </div>
-    <script src="script.js"></script>
+>>>>>>> efaa58188aa497038652512b352e1b62f711e55b
 
+    <script src="index.js"></script>
 </body>
 </html>
