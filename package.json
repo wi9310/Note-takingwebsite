@@ -1,0 +1,25 @@
+{
+  "name": "note-takingwebsite",
+  "version": "1.0.0",
+  "description": "Back-End packages.",
+  
+  "homepage": "https://github.com/wi9310/Note-takingwebsite#readme",
+  "bugs": {
+    "url": "https://github.com/wi9310/Note-takingwebsite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wi9310/Note-takingwebsite.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
