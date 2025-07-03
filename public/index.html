@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note-Taking App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div class="container">
@@ -15,7 +15,7 @@
         <main>
             <section class="note-form">
                 <h2>Add a New Note</h2>
-                <form id="noteForm">
+                <form id="noteForm" action="/submit" method="POST">
                     <div class="form-group">
                         <label for="noteTitle">Title:</label>
                         <input type="text" id="noteTitle" required>
@@ -35,6 +35,6 @@
         </main>
     </div>
 
-    <script src="index.js"></script>
+    <script src="../index.js"></script>
 </body>
 </html>
