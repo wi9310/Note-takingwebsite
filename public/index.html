@@ -18,11 +18,11 @@
                 <form id="noteForm" action="/submit" method="POST">
                     <div class="form-group">
                         <label for="noteTitle">Title:</label>
-                        <input type="text" id="noteTitle" required>
+                        <input type="text" id="noteTitle" name ="note" value="" />
                     </div>
                     <div class="form-group">
                         <label for="noteBody">Body:</label>
-                        <textarea id="noteBody" rows="5" required></textarea>
+                        <textarea id="noteBody" name='notebody' rows="5" required></textarea>
                     </div>
                     <button type="submit">Save Note</button>
                 </form>
@@ -35,6 +35,6 @@
         </main>
     </div>
 
-    <script src="../index.js"></script>
+    <!-- <script src="../index1.js"></script> -->
 </body>
 </html>
